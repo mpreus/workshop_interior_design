@@ -1,0 +1,39 @@
+// nakładka w tle:
+@mixin mp-bg-overlay($color, $opacity) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	content: "";
+	z-index: 0;
+	background: none repeat $color;
+	opacity: $opacity;
+}
+
+
+// pozycja relativ i zwiększonyz-index:
+@mixin mp-relative-zindex() {
+	position: relative;
+	z-index: 1000;
+}
+
+// rozmiar:
+@mixin mp-size($w, $h) {
+	width: $w;
+	height: $h;
+}
+
+// font pomocniczy:
+@mixin mp-font-light-secondary {
+	font-weight: 300;
+	font-family: $mp-font-family-secondary;
+}
+
+// przejście:
+@mixin mp-basic-transition {
+	transition: all .25s ease-in-out;
+}
+
+

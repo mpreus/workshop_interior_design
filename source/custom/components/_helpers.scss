@@ -1,0 +1,10 @@
+.mp-hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: darken($mp-grey-200, 5%);
+}
+
+.mp-alternate-bg {
+	background-color: $mp-grey-100;
+}

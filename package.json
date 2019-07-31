@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap_adv",
+  "version": "1.0.0",
+  "description": "bootstrap advanced project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Maciej Preus",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

@@ -1,0 +1,12 @@
+.mp-header-item-link {
+	font-size: .65rem;
+	// dodamy tu mixin z bootstrapa, ale z własnymi warunkami:
+	@include media-breakpoint-up(md) {
+		padding: 1.65rem 1.25rem;
+	}
+}
+
+// aktywna pozycja menu
+.mp-header-item-active {
+	background-color: $mp-white;
+}

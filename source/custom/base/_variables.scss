@@ -1,0 +1,55 @@
+// własne zmienne - kolory:
+$mp-accent-color: #be8c6b;
+$mp-grey-100: #f8f8f8;
+$mp-grey-200: #eee;
+$mp-grey-600: #b7b7b7;
+$mp-grey-800: #707070;
+$mp-grey-900: #444;
+$mp-white: #fff;
+$mp-black: #000;
+$mp-input-bg: #fcfcfc;
+$mp-input-border-color: darken($mp-grey-200, 3%);
+$mp-contact-form-shadow: #292c31;
+$mp-product-search-btn-color: #ccc;
+
+// własne zmienne tekstowe:
+$mp-font-family-body: "Lato";
+$mp-font-family-secondary: "Oswald";
+
+// nadpisywanie kolorów Bootsrap4:
+$theme-colors: (
+	"primary": $mp-accent-color,
+);
+
+$grey-100: $mp-grey-100;
+$grey-200: $mp-grey-200;
+$grey-600: $mp-grey-600;
+$grey-800: $mp-grey-800;
+$grey-900: $mp-grey-900;
+
+// nadpisujemy obramowania Bootstrapa (zaokrąglenia na '0'):
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+// nadpisujemy elementy tekstowe Bootstrap:
+$font-family-sans-serif: $mp-font-family-body;
+
+$headings-font-family: $mp-font-family-secondary;
+$headings-font-weight: 700;
+
+$font-size-base: .875rem;
+
+$line-height-base: 1.75;
+$font-size-sm: ($font-size-base * .75);
+
+$h2-font-size: 2.143rem;
+$h3-font-size: 1.375rem;
+$h4-font-size: 1rem;
+$h5-font-size: .875rem;
+
+
+// Jumbotron:
+$jumbotron-padding: 7rem;
+
+

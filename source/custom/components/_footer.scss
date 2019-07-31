@@ -1,0 +1,61 @@
+// górny wiersz stopki
+.mp-footer-top {
+	position: relative;
+	padding: 80px 0 20px;
+	background: url("../images/bg/footer-bg.jpg") 50% 50% no-repeat;
+	background-size: cover;
+	&:after {
+		@include mp-bg-overlay($mp-black, .75);
+	}
+}
+
+.mp-footer-top-content {
+	@include mp-relative-zindex;
+}
+
+.mp-footer-text {
+	font-size: .75rem;
+	color: $mp-grey-600;
+}
+
+.mp-footer-p {
+	line-height: 2;
+}
+
+// kolumna kontakt
+.mp-footer-contact-list {
+	margin-bottom: .75rem;
+}
+.mp-footer-contact-item {
+	padding: .2rem 0;
+}
+
+.mp-social-box {
+	@include mp-size(26px, 26px);
+}
+
+// kolumna newsletter:
+.mp-newsletter-form-group {
+	margin-bottom: .75rem;
+}
+
+.mp-newsletter-form-control {
+	height: 1.55rem;
+	font-size: .75rem;
+}
+
+.mp-newsletter-btn {
+	padding: .25rem 1rem;
+	font-size: .625rem;
+}
+
+// sekcja copyright:
+.mp-copy {
+	padding: 1rem 0;
+	font-size: .625rem;
+}
+
+.mp-copy-second {
+	margin-top: .25rem;
+	font-size: .5625rem;
+}
