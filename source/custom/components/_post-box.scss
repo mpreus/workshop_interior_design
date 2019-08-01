@@ -1,0 +1,66 @@
+.mp-post-box {
+	position: relative;
+}
+
+.mp-post-box-date {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	@include mp-size(75px, 75px);
+	@include media-breakpoint-up(md) {
+		@include mp-size(95px, 95px);
+	}
+}
+
+.mp-post-box-date-body {
+	max-width: 90%;
+	@include media-breakpoint-up(md) {
+		max-width: 45%;
+	}
+}
+
+.mp-post-box-date-value {
+	margin-top: .3rem;
+	font-size: .625rem;
+	@include mp-font-light-secondary;
+}
+
+.mp-post-box-body {
+	position: relative;
+	padding: 10px 0 0 10px;
+}
+
+.mp-post-box-content {
+	position: absolute;
+	top: 30%;
+	right: 0;
+	bottom: 0;
+	left: 10px;
+	padding: 20px 30px;
+	&:after {
+		@include mp-bg-overlay($mp-black, .6);
+	}
+	@include media-breakpoint-up(md) {
+		top: 50%;
+	} 
+}
+
+.mp-post-box-content-inner {
+	@include mp-relative-zindex;
+}
+
+.mp-post-box-title {
+	font-size: 1.375rem;
+	margin-bottom: .85rem;
+}
+
+.mp-post-box-text {
+	margin-bottom: .3rem;
+	line-height: 1.66;
+}
+
+.mp-post-box-link {
+	font-size: .625rem;
+	@include mp-font-light-secondary;
+}

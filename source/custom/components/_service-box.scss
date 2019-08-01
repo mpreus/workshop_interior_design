@@ -1,0 +1,40 @@
+.mp-services-box {
+	margin-bottom: 40px;
+}
+
+.mp-services-box-top {
+	margin-bottom: 1.4rem;
+}
+
+.mp-services-box-img {
+	margin: 10px 20px 0 10px;
+	@include mp-relative-zindex;
+}
+
+.mp-services-box-title {
+	margin-top: 1.75rem;
+}
+
+.mp-services-box-header {
+	font-size: 1.125rem;
+	line-height: 1.2;
+	@include mp-font-light-secondary;
+}
+
+.mp-services-box-text {
+	line-height: 2;
+}
+
+.mp-services-box-shadow {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	background-color: rgba($mp-black, .08);
+	@include mp-size(85px, 85px);
+}
+
+.mp-services-box-active {
+	background-color: rgba($mp-accent-color, .8);
+}
+
+
