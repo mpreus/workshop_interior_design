@@ -1,0 +1,31 @@
+.mp-comments {
+	padding: 45px 0 25px;
+}
+
+.mp-comment {
+	padding-top: .75rem;
+}
+
+.mp-comment-avatar {
+	margin-right: 1rem;
+	border-radius: 50%;
+	@include mp-size(48px, 48px);
+}
+
+.mp-comment-meta {
+	margin: .25rem 0;
+}
+
+.mp-comment-username {
+	font-family: $mp-font-family-secondary;
+	font-weight: 700;
+	letter-spacing: .075rem;
+}
+
+.mp-comment-date {
+	font-family: $mp-font-family-secondary;
+	font-size: .75rem;
+	letter-spacing: .01rem;
+
+}
+
