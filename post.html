@@ -54,7 +54,7 @@
 	</div>
 
 <!-- POSTS LIST -->
-	<div class="mp-post-list-page">
+	<div class="mp-post-page">
 		<div class="container">
 			
 			<div class="row">
@@ -103,7 +103,7 @@
 									</div>
 									<div class="media-body mp-text-small">
 										<div class="mp-comment-meta">
-											<span class="mp-comment-username">Krzysztof Kowalski</span>
+											<span class="mp-comment-username">Krzysztof Kowalski</span><br/>
 											<span class="mp-comment-date">25 kwietnia 2019 | 20:22</span>
 										</div>
 										<div class="d-flex align-items-start mp-comment-content">
@@ -119,7 +119,7 @@
 											</div>
 											<div class="media-body mp-text-small">
 												<div class="mp-comment-meta">
-													<span class="mp-comment-username">Adam Nowak</span>
+													<span class="mp-comment-username">Adam Nowak</span><br/>
 													<span class="mp-comment-date">27 kwietnia 2019 | 16:02</span>
 												</div>
 												<div class="d-flex align-items-start mp-comment-content">
@@ -132,6 +132,33 @@
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="mp-hr"></div>
+							<!-- formularz komentarzy -->
+							<div class="mp-comments-form">
+								<form class="mp-form" action="#">
+									<div class="row">
+										<div class="form-group col-md-4">
+											<label for="name">Twoje imię</label>
+											<input class="form-control mp-comments-form-control" id="name" type="text">
+										</div>
+										<div class="form-group col-md-4">
+											<label for="email">Adress e-mail</label>
+											<input class="form-control mp-comments-form-control" id="email" type="text">
+										</div>
+										<div class="form-group col-md-4">
+											<label for="url">Twoja strona</label>
+											<input class="form-control mp-comments-form-control" id="url" type="text">
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col">
+											<label for="comment">Twój komentarz</label>
+											<textarea class="form-control mp-comments-form-control" id="comment" cols="30" rows="5"></textarea>
+										</div>
+									</div>	
+									<button class="btn btn-primary btn-lg text-white mp-comments-form-btn">Wyślij komentarz</button>
+								</form>
 							</div>
 						</div>
 					</div>
