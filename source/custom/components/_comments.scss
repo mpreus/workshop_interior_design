@@ -22,10 +22,19 @@
 	letter-spacing: .075rem;
 }
 
+.mp-comment-content img {
+	width: 25px;
+	height: 25px;
+}
+
 .mp-comment-date {
 	font-family: $mp-font-family-secondary;
 	font-size: .75rem;
 	letter-spacing: .01rem;
-
 }
 
+.mp-comment-text {
+	margin-right: 4rem;
+	font-size: .875rem;
+	line-height: 1.8;
+}
