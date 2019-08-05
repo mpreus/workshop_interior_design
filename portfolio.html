@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Interior_about</title>
+	<title>Interior_blog</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Oswald:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
@@ -16,19 +16,19 @@
 					<a class="nav-link text-white mp-header-item-link" href="index.html">Strona główna</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white mp-header-item-link" href="portfolio.html">Realizacje</a>
+					<a class="nav-link mp-header-item-active mp-header-item-link" href="portfolio.html">Realizacje</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white mp-header-item-link" href="portfolio.html">Usługi</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mp-header-item-link text-white" href="post-list.html">Aktualności</a>
+					<a class="nav-link text-white mp-header-item-link" href="post-list.html">Aktualności</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white mp-header-item-link" href="shop.html">Sklep</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mp-header-item-active mp-header-item-link" href="about.html">O nas</a>
+					<a class="nav-link text-white mp-header-item-link" href="about.html">O nas</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-white mp-header-item-link" href="contact.html">Kontakt</a>
@@ -53,70 +53,94 @@
 		</div>
 	</div>
 
-<!-- o nas -->
-	<div class="mp-about-page">
+<!-- PORTFOLIO -->
+	<div class="mp-portfolio-page">
 		<div class="container">
+			<ul class="nav nav-pills justify-content-center text-uppercase mp-navigator">
+				<li class="nav-item">
+					<a class="nav-link active" href="#">Wszystkie realizacje</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Wnętrza</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Meble</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Zieleń</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Użytkowe</a>
+				</li>
+			</ul>
+			<!--boxy portfolio -->
+			<div class="d-flex flex-wrap justify-content-around justify-content-xl-between mp-portfolio">
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img mp-portfolio-img-overlay">
+						<img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="portfolio 1">
+					</div>
+					<div class="text-center text-white mp-portfolio-box-text">
+						<h4 class="text-uppercase mp-portfolio-box-header">Najnowszy projekt</h4>
+						<div class=" w-60 mx-auto mp-hr"></div>
+						<span class="d-block mp-portfolio-item-info"><span class="text-uppercase">Klient: </span>Custom construction company</span>
+						<span class="d-block mp-portfolio-item-info"><span class="text-uppercase">Lokalizacj: </span>Warszawa</span>
+						<span class="d-block mp-portfolio-item-info"><span class="text-uppercase">Powierzchnia: </span>12000m2</span>
+						<span class="d-block mp-portfolio-item-info"><span class="text-uppercase">Wartość: </span>600 000PLN</span>
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="portfolio 2">
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="portfolio 3">
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="portfolio 1">
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="portfolio 2">
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="portfolio 3">
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-1.jpg" alt="portfolio 1">
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-2.jpg" alt="portfolio 2">
+					</div>
+				</div>
+				<div class="mp-portfolio-item">
+					<div class="mp-portfolio-box-img">
+						<img class="img-fluid" src="images/portfolio/portfolio-3.jpg" alt="portfolio 3">
+					</div>
+				</div>
+			</div>
 			<div class="row">
-				<div class="col-lg-6">
-					<span class="text-muted text-uppercase mp-text-small mp-page-intro-subheader">Lorem ipsum dolor sit amet</span>
-					<h2 class="text-uppercase mp-page-intro-header">Poznaj <span class="text-primary">naszą firmę</span></h2>
-					<div class="mp-hr mp-page-intro-rule"></div>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consequuntur temporibus quaerat animi nesciunt quod unde tenetur, cum illum consectetur corporis, necessitatibus impedit. Dolore ipsam cumque doloremque sunt at excepturi modi fugit repudiandae! Similique perspiciatis, delectus omnis iure vel ratione blanditiis quia quo beatae hic voluptates, pariatur facere! Hic quos illo, repudiandae in error assumenda aperiam, totam eius vel sapiente tenetur voluptate dicta rerum nisi deserunt, earum est minus inventore! In accusantium quis iusto a iure quaerat voluptatibus ex itaque.
-					</p>
-				</div>
-				<div class="col-lg-6">
-					<img class="img-fluid mt-2" src="images/pages/about-img.png" alt="nasza firma">
-				</div>
-			</div>
-			<div class="row mt-4">
 				<div class="col">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus cumque, alias excepturi facere quos perferendis quae possimus, optio! Sit ad reiciendis laborum, nam alias officiis sapiente eveniet unde quisquam reprehenderit ea enim necessitatibus architecto id quod voluptatibus repellendus fugit expedita magnam. Delectus, dolores consequatur cumque voluptatum laboriosam eius, veritatis illo!
-					</p> 
-				</div>
-			</div>
-			<div class="d-flex flex-wrap justify-content-between mb-2 ">
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Jan Kowalski</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Adam Nowak</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Janina Cholska</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Dawid Kareński</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Waldemar Masz</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Anna Nowacka</span>
-					<span class="d-block">Freepick.com</span>
+					<div class="text-center mp-pagination">
+						<ul class="pagination justify-content-center">
+							<li class="page-item disabled"><a class="page-link" href="#">&lt;&lt; poprzednia strona</a></li>
+							<li class="page-item"><a class="page-link" href="#">następna strona &gt;&gt;</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 
 <!-- FOOTER -->
 	<div class="mp-footer-top">

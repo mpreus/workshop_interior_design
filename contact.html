@@ -28,10 +28,10 @@
 					<a class="nav-link text-white mp-header-item-link" href="shop.html">Sklep</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link mp-header-item-active mp-header-item-link" href="about.html">O nas</a>
+					<a class="nav-link text-white mp-header-item-link" href="about.html">O nas</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white mp-header-item-link" href="contact.html">Kontakt</a>
+					<a class="nav-link mp-header-item-active mp-header-item-link" href="contact.html">Kontakt</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link mp-header-item-link" href="#">
@@ -53,65 +53,37 @@
 		</div>
 	</div>
 
-<!-- o nas -->
-	<div class="mp-about-page">
+<!-- Formularz kontaktowy -->
+	<div class="mp-contact-page">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<span class="text-muted text-uppercase mp-text-small mp-page-intro-subheader">Lorem ipsum dolor sit amet</span>
-					<h2 class="text-uppercase mp-page-intro-header">Poznaj <span class="text-primary">naszą firmę</span></h2>
-					<div class="mp-hr mp-page-intro-rule"></div>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consequuntur temporibus quaerat animi nesciunt quod unde tenetur, cum illum consectetur corporis, necessitatibus impedit. Dolore ipsam cumque doloremque sunt at excepturi modi fugit repudiandae! Similique perspiciatis, delectus omnis iure vel ratione blanditiis quia quo beatae hic voluptates, pariatur facere! Hic quos illo, repudiandae in error assumenda aperiam, totam eius vel sapiente tenetur voluptate dicta rerum nisi deserunt, earum est minus inventore! In accusantium quis iusto a iure quaerat voluptatibus ex itaque.
-					</p>
+					<div class="mb-5 mb-lg-0 mp-contact-form">
+						<h4 class="text-white text-uppercase mp-contact-form-header">Formularz kontaktowy</h4>
+						<form class="mp-form" action="">
+							<div class="row">
+								<div class="col-sm-6 mp-form-group">
+									<label class="text-white" for="name">Imię i nazwisko</label>
+									<input class="form-control form-control-sm mp-contact-form-control" type="text" id="name" name="name">
+								</div>
+								<div class="col-sm-6 mp-form-group">
+									<label class="text-white" for="email">Adres e-mail</label>
+									<input class="form-control form-control-sm mp-contact-form-control" type="text" id="email" name="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col mp-form-group">
+									<label class="text-white" for="msg">Treść wiadomości</label>
+									<textarea class="form-control mp-contact-form-control" id="msg" cols="30" rows="2"></textarea>
+								</div>
+							</div>
+							<button class="btn btn-primary text-white text-uppercase mp-contact-form-btn">Wyślij wiadomość</button>
+						</form>
+						
+					</div>
 				</div>
-				<div class="col-lg-6">
-					<img class="img-fluid mt-2" src="images/pages/about-img.png" alt="nasza firma">
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div class="col">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus cumque, alias excepturi facere quos perferendis quae possimus, optio! Sit ad reiciendis laborum, nam alias officiis sapiente eveniet unde quisquam reprehenderit ea enim necessitatibus architecto id quod voluptatibus repellendus fugit expedita magnam. Delectus, dolores consequatur cumque voluptatum laboriosam eius, veritatis illo!
-					</p> 
-				</div>
-			</div>
-			<div class="d-flex flex-wrap justify-content-between mb-2 ">
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Jan Kowalski</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Adam Nowak</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Janina Cholska</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Dawid Kareński</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Waldemar Masz</span>
-					<span class="d-block">Freepick.com</span>
-				</div>
-				<div class="text-uppercase text-center mp-about-avatar">
-					<img src="images/pages/about-avatar-1.png" alt="avatar">
-					<span class="d-block">Projektant</span>
-					<span class="d-block text-primary mp-about-avatar-name">Anna Nowacka</span>
-					<span class="d-block">Freepick.com</span>
+				<div class="col-lg-6 text-lg-right">
+					<img class="img-fluid" src="images/pages/mapa.jpg" alt="nasza lokalizacja">
 				</div>
 			</div>
 		</div>
