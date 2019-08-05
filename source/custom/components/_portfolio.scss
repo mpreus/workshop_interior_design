@@ -3,20 +3,20 @@
 }
 
 .mp-portfolio-box-text {
-	position: absolute;
-	top: 50%;
 	left: 0;
-	right: 0;
-	width: 65%;
 	margin: 0 auto;
-	z-index: 1000;
+	position: absolute;
+	right: 0;
+	top: 50%;
 	transform: translateY(-50%);
+	width: 65%;
+	z-index: 1000;
 }
 
 .mp-portfolio-box-title {
-	margin-bottom: 1.2rem;
 	font-size: 1.55rem;
 	letter-spacing: .2rem;
+	margin-bottom: 1.2rem;
 }
 
 .mp-portfolio-box-img {
@@ -33,3 +33,20 @@
 	}
 }
 
+// style dla portfolio-item
+.mp-portfolio-item {
+	position: relative;
+	margin-bottom: 1.875rem;
+	.mp-hr {
+		margin: 1rem 0;
+	}
+}
+
+.mp-portfolio-item-info {
+	@include mp-font-light-secondary;
+}
+
+.mp-portfolio-box-header {
+	font-size: 1.125rem;
+	letter-spacing: .2rem;
+}

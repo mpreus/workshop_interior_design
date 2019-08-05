@@ -1,8 +1,8 @@
 .mp-hero {
-	position: relative;
-	margin-bottom: 0;
 	background: url("../images/bg/top-bg.jpg") 50% 50% no-repeat;
 	background-size: cover;
+	margin-bottom: 0;
+	position: relative;
 	&:after {
 		@include mp-bg-overlay($mp-black, .4);
 	}
@@ -13,8 +13,8 @@
 }
 
 .mp-hero-header {
-	margin-bottom: .85rem;
 	letter-spacing: .55rem;
+	margin-bottom: .85rem;
 	text-shadow: 0 2px rgba($mp-accent-color, 1);
 	@include media-breakpoint-up(md) {
 		font-size: 3.06rem;
@@ -22,6 +22,6 @@
 }
 
 .mp-hero-subheader {
-	margin-bottom: 1rem;
 	filter: drop-shadow(0 2px rgba($mp-accent-color, 1));
+	margin-bottom: 1rem;
 }

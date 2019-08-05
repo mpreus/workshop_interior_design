@@ -10,8 +10,8 @@
 }
 
 .mp-services-group {
-	height: 100px;
 	background: url("../images/bg/witamy-tlo.jpg") 50% 50% no-repeat;
+	height: 100px;	
 	@include media-breakpoint-up(lg) {
 		margin-right: -30px;
 	}
@@ -19,9 +19,9 @@
 
 .mp-services-item {
 	padding: 1rem 1.3rem 0;
+	pointer-events: none;
 	text-align: center;
 	@include mp-size(25%, 100%);
-	pointer-events: none;
 	&:hover {
 		@include mp-services-item-active;
 		@include mp-basic-transition;
@@ -35,9 +35,9 @@
 }
 
 .mp-services-item-title {
+	font-size: .6875rem;
 	margin-top: .25rem;
 	@include mp-font-light-secondary;
-	font-size: .6875rem;
 }
 
 .mp-services-item-active {

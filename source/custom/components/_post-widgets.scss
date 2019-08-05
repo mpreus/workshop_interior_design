@@ -1,12 +1,12 @@
 .mp-post-widget {
+	background-color: $grey-200;
 	margin-bottom: 30px;
 	padding: 1rem 2rem;
-	background-color: $grey-200;
 }
 
 .mp-post-widget-header {
-	margin-top: 1rem;
 	letter-spacing: 0.1rem;
+	margin-top: 1rem;
 }
 
 .mp-post-widget-list-item {
@@ -27,8 +27,8 @@
 
 .mp-post-widget-search-input {
 	font-family: $mp-font-family-secondary;
-	font-weight: 400;
 	font-size: .875rem;
+	font-weight: 400;
 	letter-spacing: .15rem;
 	&::-webkit-input-placeholder {
 		color: $grey-200;
@@ -72,10 +72,10 @@
 }
 
 .mp-post-widget-categories-item {
+	background-color: $mp-black;
+	line-height: 1;
 	margin-bottom: 1.175rem;
 	margin-right: .15rem;
 	padding: .4rem 1rem;
-	line-height: 1;
-	background-color: $mp-black;
 }
 

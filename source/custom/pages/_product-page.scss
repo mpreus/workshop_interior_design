@@ -1,0 +1,45 @@
+.mp-product-page {
+	padding: 80px 0 20px;
+}
+
+.mp-product-page-data {
+	@include mp-font-light-secondary;
+	letter-spacing: .1rem;
+}
+
+.mp-product-page-img {
+	margin-bottom: 2rem;
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 0;
+	}
+}
+
+.mp-product-page-price-box {
+	width: 100%;
+	margin: 1rem 0 1.5rem;
+	@include media-breakpoint-up(md) {
+		width: 40%;
+	}
+}
+
+.mp-product-page-short-desc {
+	margin: 1.25rem 0 2.5rem;
+}
+
+.mp-product-page-quantity {
+	margin-bottom: 1.5rem;
+	font-size: .875rem;
+}
+
+.mp-product-page-quantity-input {
+	margin-left: 1rem;
+	color: $grey-800;
+	border: 1px solid $grey-900;
+	@include mp-size(2.9rem, 1.2rem);
+}
+
+.mp-product-page-quantity-label {
+	font-weight: 300;
+	letter-spacing: .15rem;
+}
+

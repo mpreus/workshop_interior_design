@@ -1,0 +1,25 @@
+.mp-product-search {
+	padding: 42px 0;
+}
+
+.mp-product-search-inner {
+	width: 100%;
+	height: 2.2rem;
+	margin: 0 auto;
+	@include media-breakpoint-up(lg) {
+		width: 40%;
+	}
+}
+
+.mp-product-search-control {
+	font-family: $mp-font-family-secondary;
+	font-size: .825rem;
+	letter-spacing: .1rem;
+}
+
+.mp-product-search-input {
+	padding-left: 1.25rem;
+}
+
+
+

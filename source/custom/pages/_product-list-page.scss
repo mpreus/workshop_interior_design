@@ -1,0 +1,25 @@
+.mp-product-list-page {
+	padding: 40px 0 35px;
+	.mp-product-page {
+		margin-bottom: 50px;
+	}
+}
+
+.mp-product-list-intro {
+	width: 100%;
+	@include media-breakpoint-up(md) {
+		width: 50%;
+	}
+}
+
+.mp-product-list-intro-desc {
+	font-weight: 300;
+}
+
+.mp-products {
+	padding: 0 0 15px;
+}
+
+
+
+

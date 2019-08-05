@@ -3,16 +3,17 @@
 }
 
 .btn-sm {
-	padding: .2rem .75rem;
-	letter-spacing: .15rem;
 	font-size: .6rem;
+	letter-spacing: .15rem;
 	line-height: 2;
+	padding: .2rem .75rem;
 }
 
 .btn-lg {
-	padding: .6rem 1.25rem;
-	letter-spacing: .125rem;
+	border-shadow: 3px 3px 3px $mp-grey-600;
 	font-size: .875rem;
+	letter-spacing: .125rem;
 	line-height: 1.2;
+	padding: .6rem 1.25rem;
 }
 

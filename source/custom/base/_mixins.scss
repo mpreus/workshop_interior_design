@@ -1,15 +1,15 @@
 // nakładka w tle:
 @mixin mp-bg-overlay($color, $opacity) {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	content: "";
-	z-index: 0;
 	background: none repeat $color;
+	bottom: 0;
+	content: "";
+	left: 0;
 	opacity: $opacity;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 0;
 }
 
 
@@ -21,14 +21,14 @@
 
 // rozmiar:
 @mixin mp-size($w, $h) {
-	width: $w;
 	height: $h;
+	width: $w;
 }
 
 // font pomocniczy:
 @mixin mp-font-light-secondary {
-	font-weight: 300;
 	font-family: $mp-font-family-secondary;
+	font-weight: 300;
 }
 
 // przejście:

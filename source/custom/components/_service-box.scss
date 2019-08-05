@@ -26,10 +26,10 @@
 }
 
 .mp-services-box-shadow {
+	background-color: rgba($mp-black, .08);
+	left: 15px;
 	position: absolute;
 	top: 0;
-	left: 15px;
-	background-color: rgba($mp-black, .08);
 	@include mp-size(85px, 85px);
 }
 

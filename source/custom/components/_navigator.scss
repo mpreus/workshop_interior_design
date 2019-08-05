@@ -1,0 +1,10 @@
+.mp-navigator {
+	margin: 1rem;
+	.nav-link {
+		padding: .5rem .75rem;
+		color: $grey-900;
+		font-family: $mp-font-family-secondary;
+		letter-spacing: .05rem;
+		line-height: 1.2;
+	}
+}
