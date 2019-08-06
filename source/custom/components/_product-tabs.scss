@@ -1,0 +1,17 @@
+.nav-tabs {
+	.nav-item .nav-link {
+		padding: .5rem 2rem;
+		font-family: $mp-font-family-secondary;
+		font-size: .875rem;
+		color: $grey-900;
+		letter-spacing: .15rem;
+		background-color: $grey-200;
+		@include media-breakpoint-up(md) {
+			padding: .5rem 5rem;
+ 		}	
+ 	}
+ 	.nav-item .nav-link.active {
+ 		color: $mp-white;
+ 		background-color: $mp-accent-color;
+ 	}
+}

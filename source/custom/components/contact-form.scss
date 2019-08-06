@@ -5,6 +5,9 @@
 	margin-top: 1.3rem;
 	padding: 2rem;
 	background-size: cover;
+	&:hover {
+		background: $grey-900;
+	}
 }
 
 .mp-contact-form-header {
